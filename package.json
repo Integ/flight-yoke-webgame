@@ -1,0 +1,28 @@
+{
+  "name": "flight-yoke-webgame",
+  "version": "1.0.0",
+  "description": "A web game that allows exploration of the sky using the Logitech Flight Yoke system.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [
+    "game",
+    "flight",
+    "web",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
